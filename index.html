@@ -29,14 +29,36 @@
         </header>
 
         <main>
+            <section class="images">
+                <img id="park-image" />
+                <img id="skyline-image" />
+            </section>
+            <section id="slogans"></section>
+
             <label>
-                Climate
-                <select id="climate-dropdown">
+                Desert
+                <select id="desert-dropdown">
+                    <option value="">Select a desert</option>
                     <option value="arizona">Arizona</option>
                     <option value="dubai">Dubai</option>
                     <option value="sahara">Sahara</option>
                 </select>
             </label>
+            <div>You changed Desert <span id="desert-count">0</span> times</div>
+            <select id="tropical-dropdown">
+                <option value="">Select a tropic</option>
+                <option value="maldives">Maldives</option>
+                <option value="aruba">Aruba</option>
+                <option value="bahamas">Bahamas</option>
+            </select>
+            <div>You changed Tropical<span id="tropical-count">0</span> times</div>
+            <section id="temperate-dropdown">
+                <option value="">Select a temperate</option>
+                <option value="greece">Greece</option>
+                <option value="portugal">Portugal</option>
+                <option value="spain">Spain</option>
+            </section>
+            <div>You changed Temperate <span id="temperate-count">0</span> times</div>
         </main>
     </body>
 </html>
